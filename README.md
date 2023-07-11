@@ -152,10 +152,20 @@ The overall performance is summarized as follows.
 
 If you find the resources in this repository helpful, please cite as:
 ```
-@article{gao2023crossconst,
-  title={Improving Zero-shot Multilingual Neural Machine Translation by Leveraging Cross-lingual Consistency Regularization},
-  author={Gao, Pengzhi and Zhang, Liwen and He, Zhongjun and Wu, Hua and Wang, Haifeng},
-  journal={arXiv preprint arXiv:2305.07310},
-  year={2023}
+@inproceedings{gao-etal-2023-improving,
+    title = "Improving Zero-shot Multilingual Neural Machine Translation by Leveraging Cross-lingual Consistency Regularization",
+    author = "Gao, Pengzhi  and
+      Zhang, Liwen  and
+      He, Zhongjun  and
+      Wu, Hua  and
+      Wang, Haifeng",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-acl.766",
+    pages = "12103--12119",
+    abstract = "The multilingual neural machine translation (NMT) model has a promising capability of zero-shot translation, where it could directly translate between language pairs unseen during training. For good transfer performance from supervised directions to zero-shot directions, the multilingual NMT model is expected to learn universal representations across different languages. This paper introduces a cross-lingual consistency regularization, CrossConST, to bridge the representation gap among different languages and boost zero-shot translation performance. The theoretical analysis shows that CrossConST implicitly maximizes the probability distribution for zero-shot translation, and the experimental results on both low-resource and high-resource benchmarks show that CrossConST consistently improves the translation performance. The experimental analysis also proves that CrossConST could close the sentence representation gap and better align the representation space. Given the universality and simplicity of CrossConST, we believe it can serve as a strong baseline for future multilingual NMT research.",
 }
 ```
