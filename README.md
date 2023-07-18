@@ -1,6 +1,6 @@
 # Improving Zero-shot Multilingual Neural Machine Translation by Leveraging Cross-lingual Consistency Regularization
 
-This repository contains the PyTorch implementation (**Unofficial**) for our Findings of ACL 2023 paper "[Improving Zero-shot Multilingual Neural Machine Translation by Leveraging Cross-lingual Consistency Regularization](https://arxiv.org/abs/2305.07310)".
+This repository contains the PyTorch implementation (**Unofficial**) for our Findings of ACL 2023 paper "[Improving Zero-shot Multilingual Neural Machine Translation by Leveraging Cross-lingual Consistency Regularization](https://aclanthology.org/2023.findings-acl.766/)".
 
 ![](./figs/crossconst.png)
 
